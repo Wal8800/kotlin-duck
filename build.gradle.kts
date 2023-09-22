@@ -25,5 +25,5 @@ kotlin {
 }
 
 application {
-    mainClass.set("MainJava")
+    mainClass.set("MainKt")
 }
