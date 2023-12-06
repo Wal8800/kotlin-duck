@@ -24,6 +24,9 @@ fun main(args: Array<String>) {
         } catch (e: Exception) {
             println(e.message)
             println("======== failed ========")
+        } finally {
+            conn.close()
+            ds.close()
         }
         TimeUnit.SECONDS.sleep(3)
     }
